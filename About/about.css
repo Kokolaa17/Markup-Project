@@ -1,0 +1,329 @@
+/* Welcome Section Style */
+.section-welcome {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-welcome h2 {
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.section-welcome p {
+    width: 777px;
+    height: 370px;
+    font-size: 24px;
+    letter-spacing: 2px;  
+    line-height: 45px;
+    text-align: center;
+}
+/* Welcome Section Style End */
+
+/* Section 1 Style */
+/* Left */
+.section1 {
+   margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+.section1-left {
+    border-left: 1px solid #707070;
+    padding-left: 50px;
+    height: 590px;
+    position: relative;
+}
+.vertical-line {
+    height: 85px;
+    width: 3px;
+    background-color: #000000;
+    position: absolute;
+    left: -1px;
+    top: 65px;
+}
+.section1-left h4 {
+    font-size: 14px;
+    font-weight: 350;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+}
+.section1-left p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 301px;
+    line-height: 40px;
+    padding-bottom: 70px;
+}
+.section1-left span {
+    font-size: 16px;
+    display: block;
+    padding-bottom: 30px;
+    width: 350px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+/* Right  */
+.section1-right {
+    width: 400px;
+    height: 616px;
+    border-radius: 18px;
+}
+
+/* Section 1 Style End */
+
+/* Section 2 Style Start */
+
+.section2 {
+   margin-top: 120px;
+   overflow: hidden;
+}
+.section2 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 400px;
+    margin-left: 210px;
+}
+.article-box {
+    width: 640px;
+    height: 283px;
+    border-radius: 18px;
+    border: 1px solid #000000;
+    position: relative;
+    margin: 50px 0px 0px 320px;
+}
+.article-box h4 {
+    font-size: 40px;
+    color: #E15F09;
+    font-weight: 400;
+    border-bottom: 1px solid #000000;
+    letter-spacing: 2px;
+    width: 100px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.article-box span {
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 350;
+    position: absolute;
+    top: 125px;
+    left: 30px;
+}
+.article-box p {
+    letter-spacing: 1px;
+    line-height: 27px;
+    width: 579px;
+    position: absolute;
+    top: 175px;
+    left: 30px;
+}
+.horizontal-rule svg {
+    width: 18px;
+    cursor: pointer;
+}
+.horizontal-rule hr {
+    width: 1400px;
+    height: 1px;
+    margin-left: 45px;
+    margin-right: 45px;
+    position: relative;
+    top: 15px;
+}
+.horizontal-rule {
+    display: flex;
+    width: 1400px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+.smallh-rule {
+    width: 22px;
+    height: 3px;
+    border-radius: 18px;
+    background-color: #000000;
+}
+#rule1 {
+    position: absolute;
+    left: 305px;
+    top: 14px;
+    z-index: 1;
+}
+#rule2 {
+    position: absolute;
+    left: 1100px;
+    top: 14px;
+}
+#article-box2 {
+    margin-top: 120px;
+    margin-left: 640px;
+}
+/* Section 2 Style End */
+
+.background-image {
+    margin-top: 120px;
+    width: 100%;
+    height: 760px;
+    background-image: url(./images/section\ 3\ image.avif);
+    background-attachment: fixed;
+} 
+
+/* Section 3 Style */
+
+.section3 {
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: relative;
+}
+.section3 article {
+    border-left: 1px solid #707070;
+    position: relative;
+    width: 800px;
+    top: 120px;
+    margin-left: 160px;
+}
+.section3 h4 {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+}
+.section3 span {
+    display: block;
+    font-size: 24px;
+    font-weight: 350;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    border-left: 3px solid #FFFFFF;
+    height: 40px;
+}
+.section3-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 270px;
+    margin-left: 180px;
+}
+
+/* Section 3 Style End */
+
+/* Tablet Media */
+@media screen and (max-width:1023px) {
+    .section-welcome p {
+        width: 700px;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 100px;
+        height: unset;
+        padding-bottom: 100px;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-box {
+        margin: 50px 0px 0px 0px;
+    }
+    .horizontal-rule {
+        position: relative;
+        top: unset;
+        left: unset;
+        margin-top: 80px;
+        width: 640px;
+    }
+    #article-box2 {
+        margin-left: unset;
+    }
+    .background-image {
+        background-position: center;
+        height: 500px;
+        width: 100%;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 article {
+       width: unset;
+       align-self: flex-start;
+       margin-left: 100px;
+    }
+    .section3-logos {
+        margin-left: unset;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .horizontal-rule svg {
+        width: 50px;
+    }
+}
+
+/* Mobile Media */
+@media (max-width: 767px) {
+    .section-welcome h2 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        width: 345px;
+        line-height: 55px;
+    }
+    .section-welcome p {
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        width: 350px;
+    }
+    .section1-left span {
+        width: 330px;
+    }
+    .remove-mobile {
+        display: none;
+    }
+    .section2 {
+        margin-top: 50px;
+    }
+    .section2 h3 {
+        margin-left: 0px;
+    }
+    .article-box {
+        max-width: 350px;
+        height: 400px;
+    }
+    .article-box p {
+        width: 278px;
+    }
+    .horizontal-rule {
+        width: 350px;
+    }
+    #rule1 {
+        left: 280px;
+    }
+    #rule2 {
+        left: 45px;
+    }
+    .horizontal-rule svg {
+        width: 80px;
+    }
+    .section3-logos {
+        gap: 30px;
+    }
+    .section3 {
+        padding-bottom: 650px;
+    }
+}
