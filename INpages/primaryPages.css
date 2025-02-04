@@ -1,0 +1,247 @@
+/* Welcome Section Style */
+.section-welcome {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-welcome h2 {
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    width: 966px;
+    line-height: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.welcome-p {
+    width: 913px;
+    font-size: 24px;
+    letter-spacing: 2px;  
+    line-height: 45px;
+    text-align: center;
+}
+
+.section-information {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-inline: 100px;
+}
+.information-div {
+    display: flex;
+    flex-direction: column;
+}
+.information-div span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+#span-position {
+    padding-left: 46px;
+}
+#positon-para {
+    padding-left: 10px;
+}
+.information-div p {
+    font-size: 24px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    border-top: 1px solid #5A5A5A;
+}
+.bold-line {
+    width: 85px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-left: 46px;
+}
+/* Welcome Section Style End */
+
+/* Section 1 Style  Start*/
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+.section1-left, .section1-right {
+    margin-top: 130px;
+}
+.section1 h3 {
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 400;
+    width: 400px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5A5A5A;
+}
+.section1 ul {
+    width: 402px;
+    padding-top: 40px;
+
+}
+.section1-right ul {
+    margin-top: 51px;
+}
+.section1 li {
+    line-height: 30px;
+    height: 144px;
+    letter-spacing: 1px;
+}
+.position-line {
+    position: relative;
+    right: 56px;
+    bottom: 3px;
+    width: 75px;
+    height: 3px;
+}
+
+/* Section 1 Style End */
+
+/* Section 2 Style Start */
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000000;
+    padding-bottom: 130px;
+}
+.section2-left, .section2-right {
+    margin-top: 150px;
+}
+.section2 h3 {
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 400;
+    width: 400px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.section2 ul {
+    width: 402px;
+    padding-top: 40px;
+}
+.section2-right ul {
+    margin-top: 51px;
+}
+.section2 li {
+    line-height: 30px;
+    height: 144px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+#position-line {
+    position: relative;
+    right: 56px;
+    bottom: 3px;
+    width: 75px;
+    height: 3px;
+}
+#blacksection-line {
+    background-color: #FFFFFF;
+    position: relative;
+    height: 3px;
+    right: 56px;
+    bottom: 3px;
+    width: 75px;
+}
+.white-button {
+    padding-top: 20px;
+}
+.white-button button {
+    padding-inline: 35px;
+}
+/* Section 2 Style End */
+
+/* Tablet Media */
+
+@media screen and (max-width:1023px) {
+    .section-welcome h2 {
+        font-size: 55px;
+        letter-spacing: 2px;
+        width: unset;
+    }
+    .welcome-p {
+        width: unset;
+        letter-spacing: unset;
+        padding-inline: 5%;
+        font-size: 20px;
+    }
+    .section-information {
+        width: 700px;
+        padding-inline: unset;
+    }
+    .section1-right {
+        margin-top: unset;
+    }
+    .section2-right {
+        margin-top: unset;
+    }
+    .section1, .section2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Mobile Media */
+@media (max-width: 767px) {
+    .section-welcome {
+        margin-bottom: 100px;
+    }
+    .section-welcome h2 {
+        font-size: 35px;
+        letter-spacing: 2px;
+        line-height: 50px;
+        width: 412px;
+        font-weight: 350;
+    }
+    .welcome-p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+        width: 290px;
+        letter-spacing: 1px;
+        padding-inline: unset;
+    }
+    .section-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        width: 200px;
+        margin-top: 50px;
+    }
+    .section1, .section2 {
+        justify-content: center;
+    }
+    .section1-left ul, .section2-left ul {
+        margin-top: unset;
+        padding-top: unset;
+        width: 335px;
+    }
+    .section2-right ul, .section1-right ul{
+        margin-top: unset;
+        padding-top: unset;
+        width: 335px;
+    }
+    .section1 li, .section2 li {
+        margin-top: 25px;
+    }
+    .section1-left, .section2-left {
+        margin-top: 50px;
+        width: 335px;
+    }
+    .section1 h3, .section2 h3 {
+        width: 335px;
+    }
+}
