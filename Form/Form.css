@@ -97,3 +97,42 @@ form button:hover {
 }
 
 /* Section 2 Style End */
+
+/* Tablet Media */
+@media screen and (max-width:1023px){
+    .section-welcome {
+        margin-top: 30px;
+    }
+    .section-welcome h2 {
+        font-size: 55px;
+    }
+    .section1 input, select, textarea {
+        width: 600px;
+        align-self: center;
+    }
+}
+/* Mobile Media */
+@media (max-width: 767px) {
+    .section-welcome {
+        margin-top: 30px;
+    }
+    .section1 {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-welcome h2 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .section1 input, select, textarea {
+        width: 400px;
+    }
+    .section1 h3 {
+        align-self: center;
+        padding-right: 100px;
+        width: 400px;
+        font-size: 30px;
+        font-weight: 300;
+        padding-bottom: unset;
+    }
+}
