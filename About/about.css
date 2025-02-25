@@ -81,6 +81,10 @@
 .section2 {
    margin-top: 120px;
    overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 .section2 h3 {
     font-size: 24px;
@@ -171,8 +175,9 @@
     margin-top: 120px;
     width: 100%;
     height: 760px;
-    background-image: url(./images/section\ 3\ image.avif);
+    background-image: url(./images/section3image.avif);
     background-attachment: fixed;
+    background-size: cover;
 } 
 
 /* Section 3 Style */

@@ -195,35 +195,6 @@
     padding-left: 30px;
     padding-bottom: 11.5px;
 }
-/* White Box */
-.white-content {
-    background-color: #FFFFFF;
-    margin-top: 120px;
-    width: 420px;
-    height: 350px;
-    border-radius: 20px;
-    margin-left: 230px;
-}
-.whitecontent-area {
-    padding-inline: 50px;
-}
-.white-content p {
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 1px;
-    width: 340px;
-    padding: 70px 0px 60px 30px;
-    line-height: 40px;
-}
-.black-button button {
-    margin-left: 28px;
-    padding-bottom: 11px;
-    padding-inline: 30px;
-}
-.black-button-svg {
-    margin-left: 25px;
-}
-
 /* Tablet Media */
 
 @media screen and (max-width:1023px) {
